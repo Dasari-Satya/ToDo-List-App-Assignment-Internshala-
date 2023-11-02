@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+/* Container Styling */
+.container{
+  background-color: bisque;
+  border: 2px solid rgb(163, 118, 118);
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 500;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Main Heading Styling */
+h2{
+  color: chocolate;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Input Placeholder Styling */
+input::placeholder{
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-group input{
+  border: 2px solid #6B705c;
+  background-color: rgb(189, 176, 159);
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type=text]:focus{
+  box-shadow: none;
+  border:2px solid #6B705c;
+  background-color: #fbfbeb;
+}
+/* List Items Arrangement Styling */
+.list-group-item{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  background-color: #b5b5a9;
+  border: 2px solid #a3a398;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Delete Button Styling */
+#delete{
+ border: none;
+ border-radius: 100%;
+ background-color: beige;
 }
